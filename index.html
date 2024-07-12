@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&family=Roboto&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Ionicons CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Oleg Klyufinskyy</title>
+  </head>
+  <body>
+    <div class="wrapped tabs">
+      <header class="tabs-head">
+        <nav class="navigation">
+          <ul class="tabs-head-buttons">
+            <li>
+              <a href="#home" class="navigation-site-item tabs-toggle is-active"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="navigation-site-item tabs-toggle"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="navigation-site-item tabs-toggle"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation-site-item tabs-toggle"
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="tabs-body">
+        <section id="home" class="landing tabs-body-content is-active">
+          <div class="scroll">
+            <h1>Oleg Klyufinskyy</h1>
+            <h2>New-York based Frontend Software developer</h2>
+            <ul class="tabs-head-buttons">
+              <li class="offsite-link">
+                <a
+                  href="https://github.com/olegklyufinskyy"
+                  class="navigation-site-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ion-icon name="logo-github"></ion-icon>
+                  <p class="small">Visit my Github page</p>
+                </a>
+              </li>
+              <li class="offsite-link">
+                <a
+                  href="https://www.linkedin.com/in/oleg-klyufinskyy/"
+                  class="navigation-site-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><ion-icon name="logo-linkedin"></ion-icon>
+                  <p class="small">Visit my LinkedIn page</p></a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="about" class="About tabs-body-content">
+          <div class="scroll">
+            <h2>About me</h2>
+            
+            <p>
+              <ion-icon name="code-outline"></ion-icon>
+              
+              
+              "I'm a passionate and motivated employee aspiring to become the
+              best front-end software developer. I love creating interactive and
+              user-friendly web applications that not only look great but also
+              provide a seamless user experience. A perfect employee with a high
+              level of time management. I like to be a member of a good team. I
+              like to learn something new every day. I strive for motivation and
+              discipline. Success inspires me, and I strive to motivate others
+              to succeed." <ion-icon name="code-slash-outline"></ion-icon>
+             
+            </p>
+            
+            <p>
+              <ion-icon name="git-branch-outline"></ion-icon>
+              "I value the opportunity to work in a team and collaborate with
+              other professionals in the field of web development. My goal is to
+              constantly improve my skills and learn new things to become an
+              expert in front-end development. I believe in understanding user
+              needs and creating products that prioritize high quality and
+              usability."
+            </p>
+            <p>
+              <ion-icon name="extension-puzzle-outline"></ion-icon>
+              "In my career, I already have experience working on various web
+              projects, which allows me to understand client needs and solve
+              tasks efficiently. My desire to improve processes and achieve
+              excellent results helps me create innovative solutions in web
+              development. I am always ready for new challenges and
+              opportunities for growth and self-improvement."
+            </p>
+          </div>
+        </section>
+        <section id="skills" class="skills tabs-body-content">
+          <div class="scroll">
+            <h2>My Top Skills</h2>
+            <ul class="skills-list">
+              <li>
+                <ion-icon name="logo-html5"></ion-icon>
+                <p>HTML5</p>
+              </li>
+              <li>
+                <ion-icon name="logo-css3"></ion-icon>
+                <p>CSS3</p>
+              </li>
+              <li>
+                <ion-icon name="logo-javascript"></ion-icon>
+                <p>JS</p>
+              </li>
+              <li>
+                <img
+                  src="./assets/svg/tailwind-css.svg"
+                  alt="TailwindCSS Logo"
+                />
+                <p>TailwindCSS</p>
+              </li>
+              <li>
+                <ion-icon name="logo-react"></ion-icon>
+                <p>React</p>
+              </li>
+              <li>
+                <ion-icon name="logo-github"></ion-icon>
+                <p>Github</p>
+              </li>
+              <li>
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+                <p><span class="block-span">Responsive</span> Design</p>
+              </li>
+              <li>
+                <ion-icon name="logo-figma"></ion-icon>
+                <p>Figma</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="projects" class="projects tabs-body-content">
+          <div class="scroll">
+            <h2>My Team Projects</h2>
+            <div class="carousel-nav">
+              <button
+                class="carousel-nav-button prev"
+                data-carousel-button="prev"
+                aria-label="Previous project"
+              >
+                <ion-icon name="arrow-back-circle"></ion-icon>
+              </button>
+              <button
+                class="carousel-nav-button next"
+                data-carousel-button="next"
+                aria-label="Next project"
+              >
+                <ion-icon name="arrow-forward-circle"></ion-icon>
+              </button>
+            </div>
+            <div class="carousel" data-carousel>
+              <ul class="projects-list" data-slides>
+                <li class="project-item">
+                  <h3>DevEx Tools</h3>
+                  <!-- Wrap the image with an anchor tag -->
+                  <a
+                    href="https://devex.tools/colors?color=57f4aa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./assets/png/DevExTools.png"
+                      alt="DevEx Tools Screenshot"
+                    />
+                  </a>
+                  <p>
+                    "Welcome to DevEx Tools, a comprehensive suite of utilities
+                    designed to enhance the experience of front-end developers.
+                    Our web app offers seven distinct tools aimed at
+                    streamlining your workflow and boosting your productivity.
+                    Whether you're adjusting styles with a color picker,
+                    generating CSS for gradients and shadows, looking for the
+                    perfect font, finding special characters, creating HTML
+                    tables, or converting CSS units with precision, DevEx Tools
+                    has you covered."
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="carousel" data-carousel>
+              <ul class="projects-list" data-slides>
+                <li class="project-item">
+                  <h3>DinoPedia</h3>
+                  <!-- Wrap the image with an anchor tag -->
+                  <a
+                    href="https://v48-tier2-team-15.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./assets/png/DinoPedia.png"
+                      alt="DinoPedia"
+                    />
+                  </a>
+                  <p>
+                    "Imagine our app like a dino world! We can show all kinds of dinosaurs – big ones looking for food, calm ones eating plants, and even tiny ones running around. From huge dinosaurs that made the ground shake to little ones in the forests."
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+      </main>
+    </div>
+    <!-- Ionicons JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  
+    <!-- Custom JavaScript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
